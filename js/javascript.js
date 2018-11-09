@@ -58,7 +58,7 @@ var Clock = function(container) {
 
 		this.minute.html(keepZero(date.getMinutes()));
 		if (!this.wrapper.hasClass('three')) 
-			this.second.html(keepZero(2*date.getSeconds()));
+			this.second.html(keepZero(date.getSeconds()));
 		else
 			this.second.html("");
 
